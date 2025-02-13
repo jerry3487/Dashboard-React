@@ -52,3 +52,6 @@ export default tseslint.config({
 =======
 # Dashboard-React
 >>>>>>> c2819782869006f8036d21675cfa9994b9422d05
+>>>>>>>
+>>>>>>> Run the project, "npm run dev
+>>>>>>> "
