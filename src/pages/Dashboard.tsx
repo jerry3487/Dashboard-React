@@ -37,9 +37,9 @@ const Dashboard = () => {
         >
           Knowledge Assessment Results {isOpen ? "▼" : "▲"}
         </button>
-        {/* ✅ Top Summary Section - Visible only when isOpen is true */}
+        {/* Top Summary Section - Visible only when isOpen is true */}
         {isOpen && (
-          <div className="w-full flex justify-end"> {/* ✅ This ensures text is on the right */}
+          <div className="w-full flex justify-end"> {/* This ensures text is on the right */}
             <div className="flex space-x-6 text-sm">
               <div className="flex items-center space-x-2 text-green-400">
                 <FaCheckCircle className="text-lg" />
