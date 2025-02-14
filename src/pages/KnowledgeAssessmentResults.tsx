@@ -16,11 +16,21 @@ const KnowledgeAssessmentResults = () => {
     ];
 
     const sections = [
-        { name: "Human Layer", icon: <FaUserShield className="text-blue-400 text-xl" />, description: "Description content here..." },
-        { name: "Perimeter Security", icon: <FaShieldAlt className="text-green-400 text-xl" />, description: "Description content here..." },
-        { name: "Network Security", icon: <FaNetworkWired className="text-yellow-400 text-xl" />, description: "Description content here..." },
-        { name: "Endpoint Security", icon: <FaLaptop className="text-purple-400 text-xl" />, description: "Description content here..." },
-        { name: "Application Security", icon: <FaLock className="text-red-400 text-xl" />, description: "Description content here..." },
+        { name: "Human Layer", icon: <FaUserShield className="text-blue-400 text-xl" />, 
+          description: "Pinocchie.AI is not your average cybersecurity firm—we defy convention and dare to tread where others fear. Our elite operatives embark on deep infiltrations into the darkest corners of the web, preemptively identifying potential threats before they strike. We lead the charge on the offensive, striking fear into the hearts of cyber adversaries and neutralizing threats. Our globally stationed cybersecurity insurgents respond swiftly and decisively to emerging threats, ensuring unparalleled protection for your digital assets.",
+        },
+        { name: "Perimeter Security", icon: <FaShieldAlt className="text-green-400 text-xl" />,
+          description: "Pinocchie.AI is not your average cybersecurity firm—we defy convention and dare to tread where others fear. Our elite operatives embark on deep infiltrations into the darkest corners of the web, preemptively identifying potential threats before they strike. We lead the charge on the offensive, striking fear into the hearts of cyber adversaries and neutralizing threats. Our globally stationed cybersecurity insurgents respond swiftly and decisively to emerging threats, ensuring unparalleled protection for your digital assets.",         
+        },
+        { name: "Network Security", icon: <FaNetworkWired className="text-yellow-400 text-xl" />,
+            description: "Pinocchie.AI is not your average cybersecurity firm—we defy convention and dare to tread where others fear. Our elite operatives embark on deep infiltrations into the darkest corners of the web, preemptively identifying potential threats before they strike. We lead the charge on the offensive, striking fear into the hearts of cyber adversaries and neutralizing threats. Our globally stationed cybersecurity insurgents respond swiftly and decisively to emerging threats, ensuring unparalleled protection for your digital assets.",
+         },
+        { name: "Endpoint Security", icon: <FaLaptop className="text-purple-400 text-xl" />,
+          description: "Pinocchie.AI is not your average cybersecurity firm—we defy convention and dare to tread where others fear. Our elite operatives embark on deep infiltrations into the darkest corners of the web, preemptively identifying potential threats before they strike. We lead the charge on the offensive, striking fear into the hearts of cyber adversaries and neutralizing threats. Our globally stationed cybersecurity insurgents respond swiftly and decisively to emerging threats, ensuring unparalleled protection for your digital assets.",
+         },
+        { name: "Application Security", icon: <FaLock className="text-red-400 text-xl" />,
+          description: "Pinocchie.AI is not your average cybersecurity firm—we defy convention and dare to tread where others fear. Our elite operatives embark on deep infiltrations into the darkest corners of the web, preemptively identifying potential threats before they strike. We lead the charge on the offensive, striking fear into the hearts of cyber adversaries and neutralizing threats. Our globally stationed cybersecurity insurgents respond swiftly and decisively to emerging threats, ensuring unparalleled protection for your digital assets.",
+         },
     ];
 
     return (
